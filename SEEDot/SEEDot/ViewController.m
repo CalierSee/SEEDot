@@ -8,9 +8,7 @@
 
 #import "ViewController.h"
 #import "UITextField+Dot.h"
-#import "SEEProxy.h"
-#import "People.h"
-#import "Fish.h"
+
 @interface ViewController ()<UITextFieldDelegate>
 
 @end
@@ -24,13 +22,7 @@
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(test:) name:UITextFieldTextDidChangeNotification object:nil];
     
     
-    People * people = [[People alloc]init];
-    Fish * fish = [[Fish alloc]init];
-    
-    SEEProxy * fishMan = [SEEProxy proxyWithObjs:people,fish, nil];
-    
-    [fishMan performSelector:@selector(say)];
-    [fishMan performSelector:@selector(swimming)];
+
     
     // Do any additional setup after loading the view, typically from a nib.
 }

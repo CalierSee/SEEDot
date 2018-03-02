@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		084B5FBA2049209D002960A1 /* SEEProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B5FB92049209D002960A1 /* SEEProxy.m */; };
-		084B5FBD20493C9F002960A1 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B5FBC20493C9F002960A1 /* People.m */; };
-		084B5FC920494043002960A1 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B5FC820494043002960A1 /* Fish.m */; };
 		08F68C43202D36C800024E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F68C42202D36C800024E47 /* AppDelegate.m */; };
 		08F68C46202D36C800024E47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F68C45202D36C800024E47 /* ViewController.m */; };
 		08F68C49202D36C800024E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F68C47202D36C800024E47 /* Main.storyboard */; };
@@ -39,12 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		084B5FB82049209D002960A1 /* SEEProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEEProxy.h; sourceTree = "<group>"; };
-		084B5FB92049209D002960A1 /* SEEProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEProxy.m; sourceTree = "<group>"; };
-		084B5FBB20493C9F002960A1 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
-		084B5FBC20493C9F002960A1 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
-		084B5FC720494043002960A1 /* Fish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
-		084B5FC820494043002960A1 /* Fish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
 		08F68C3E202D36C800024E47 /* SEEDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEEDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F68C41202D36C800024E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08F68C42202D36C800024E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,12 +110,6 @@
 				08F68C45202D36C800024E47 /* ViewController.m */,
 				08F68C73202D370600024E47 /* UITextField+Dot.h */,
 				08F68C74202D370600024E47 /* UITextField+Dot.m */,
-				084B5FB82049209D002960A1 /* SEEProxy.h */,
-				084B5FB92049209D002960A1 /* SEEProxy.m */,
-				084B5FBB20493C9F002960A1 /* People.h */,
-				084B5FBC20493C9F002960A1 /* People.m */,
-				084B5FC720494043002960A1 /* Fish.h */,
-				084B5FC820494043002960A1 /* Fish.m */,
 				08F68C47202D36C800024E47 /* Main.storyboard */,
 				08F68C4A202D36C800024E47 /* Assets.xcassets */,
 				08F68C4C202D36C800024E47 /* LaunchScreen.storyboard */,
@@ -285,13 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084B5FBD20493C9F002960A1 /* People.m in Sources */,
-				084B5FC920494043002960A1 /* Fish.m in Sources */,
 				08F68C46202D36C800024E47 /* ViewController.m in Sources */,
 				08F68C75202D370700024E47 /* UITextField+Dot.m in Sources */,
 				08F68C51202D36C800024E47 /* main.m in Sources */,
 				08F68C43202D36C800024E47 /* AppDelegate.m in Sources */,
-				084B5FBA2049209D002960A1 /* SEEProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
